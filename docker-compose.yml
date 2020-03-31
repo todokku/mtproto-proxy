@@ -8,3 +8,4 @@ mtproto-proxy:
       - proxy-config:/data
     environment:
       - WORKERS=1
+      #- SECRET=
