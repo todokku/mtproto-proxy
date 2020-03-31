@@ -6,3 +6,5 @@ mtproto-proxy:
     restart: always
     volumes:
       - proxy-config:/data
+    environment:
+      - WORKERS=1
